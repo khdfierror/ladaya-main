@@ -58,7 +58,7 @@ class BankResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageBanks::route('/'),
+            'index' => Pages\ManageBank::route('/'),
         ];
     }    
 }

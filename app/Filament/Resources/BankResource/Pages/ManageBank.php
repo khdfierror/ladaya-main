@@ -6,7 +6,7 @@ use App\Filament\Resources\BankResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\ManageRecords;
 
-class ManageBanks extends ManageRecords
+class ManageBank extends ManageRecords
 {
     protected static string $resource = BankResource::class;
 
