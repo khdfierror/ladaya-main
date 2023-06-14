@@ -50,7 +50,7 @@
             <p><i class="fas fa-home me-3"></i> Mangkurawang, Kec. Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75513</p>
             <p>
               <i class="fas fa-envelope me-3"></i>
-              ladaya@ladaya.com
+              admin@ladaya.com
             </p>
             <p><i class="fas fa-phone me-3"></i> +62 878-1061-2599</p>
           </div>
