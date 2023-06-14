@@ -47,7 +47,8 @@ class HalamanResource extends Resource
                 Forms\Components\RichEditor::make('konten')
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('gambar')
-                    ->columnSpanFull(),
+                    ->columns(1)
+                    ->directory('gambar'),
             ]);
     }
 
@@ -57,7 +58,9 @@ class HalamanResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('judul'),
                 Tables\Columns\TextColumn::make('slug'),
-                Tables\Columns\ImageColumn::make('gambar'),
+                Tables\Columns\ImageColumn::make('gambar')
+                    // ->disk()
+                    ->square(),
                 Tables\Columns\TextColumn::make('updated_at')
                     ->dateTime(),
             ])
