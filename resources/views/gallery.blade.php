@@ -37,7 +37,7 @@
     <section class="main-banner4 bg-center bg-no-repeat bg-zinc-500 bg-blend-multiply">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Galeri Ladaya</h1>
-            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Kami Ladaya, semangat juang yang siap melayani Anda dengan penuh ketangguhan dan keuletan. Bersiaplah meraih kemenangan dalam setiap tantangan yang dihadapi.</p>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Dibuka untuk umum sejak bulan juni 2015, seminggu setelah terselenggaranya ‘Lanjong Art Festival’ berskala internasional dan menandai perjalanan Ladaya sebagai sebuah ruang publik yang berorientasi pada alam dan kesenian sebagai identitas untuk membawa nilai kebermanfaatan bagi khalayak banyak.</p>
         </div>
     </section>
     <!-- end -->

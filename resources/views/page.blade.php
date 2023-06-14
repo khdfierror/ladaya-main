@@ -35,9 +35,9 @@
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
                 Tentang Kami</h1>
-            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Kami La
-                daya,Selalu
-                Mengutamakan Kenyamanan Wisatawan yang datang ke kami dengan se baik baik nya</p>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Ladang Budaya adalah ruang ekonomi kreatif yang berada di propinsi
+Kalimantan Timur, Kabupaten Kutaikartanegara. Berdiri di atas lahan seluas
+12 hektar, buah karya seniman bernama Ab Asmarandana</p>
         </div>
     </section>
     <!-- End -->

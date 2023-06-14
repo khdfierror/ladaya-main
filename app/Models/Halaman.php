@@ -18,7 +18,5 @@ class Halaman extends Model
         'gambar',
     ];
 
-    protected $casts = [
-        'gambar' => 'array',
-    ];
+   
 }

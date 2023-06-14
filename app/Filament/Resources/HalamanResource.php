@@ -46,9 +46,7 @@ class HalamanResource extends Resource
                     ->maxLength(255),
                 Forms\Components\RichEditor::make('konten')
                     ->columnSpanFull(),
-                Forms\Components\FileUpload::make('gambar')
-                    ->columns(1)
-                    ->directory('gambar'),
+                Forms\Components\FileUpload::make('gambar'),
             ]);
     }
 
