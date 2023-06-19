@@ -75,9 +75,12 @@ $('body').on('click', '.tombol-edit', function(e) {
             url: 'pegawaiAjax/' + id + '/edit',
             type: 'GET',
             success: function(response) {
+                let parser = new DOMParser();
+                const doc = parser.parseFromString(response.result.konten, 'text/html');
+                
                 $('#exampleModal').modal('show');
                 // $('#konten').text(response.result.konten);
-                // $('#konten').attr("v-html="+response.result.konten+");
+                $('#konten').text(doc);
                 $('#judul').text(response.result.judul);
             }
         });
