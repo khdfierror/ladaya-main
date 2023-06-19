@@ -81,6 +81,7 @@ $('body').on('click', '.tombol-edit', function(e) {
                 $('#exampleModal').modal('show');
                 // $('#konten').text(response.result.konten);
                 $('#konten').innerHTML += doc;
+                console.log(doc)
                 $('#judul').text(response.result.judul);
             }
         });
