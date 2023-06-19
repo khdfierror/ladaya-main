@@ -77,8 +77,8 @@ $('body').on('click', '.tombol-edit', function(e) {
             success: function(response) {
                 $('#exampleModal').modal('show');
                 // $('#konten').text(response.result.konten);
-                $('#konten').innerHTML += response.result.konten;
-                console.log(response.result.konten)
+                $('#konten').innerHTML = response.result.konten;
+                console.log(response.result.konten, $('#konten').innerHTML)
                 $('#judul').text(response.result.judul);
             }
         });
