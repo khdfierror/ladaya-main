@@ -80,7 +80,7 @@ $('body').on('click', '.tombol-edit', function(e) {
                 
                 $('#exampleModal').modal('show');
                 // $('#konten').text(response.result.konten);
-                $('#konten').innerHTML += doc.innerHtml;
+                $('#konten').innerHTML += doc;
                 $('#judul').text(response.result.judul);
             }
         });
