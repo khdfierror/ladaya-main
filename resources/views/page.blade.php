@@ -108,10 +108,10 @@ Kalimantan Timur, Kabupaten Kutaikartanegara. Berdiri di atas lahan seluas
 
 
 
-    @include('include.script');
+    @include('include.script')
 
 
-    @include('include.footer');
+    @include('include.footer')
 
 
    
