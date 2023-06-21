@@ -44,9 +44,9 @@
         </div>
     </section>
     <!-- End block -->
-    @include('include.script');
+    @include('include.script')
     
-    @include('include.footer');
+    @include('include.footer')
 
     
 </body>
