@@ -93,7 +93,7 @@ Kalimantan Timur, Kabupaten Kutaikartanegara. Berdiri di atas lahan seluas
                         <h2 class="text-2xl font-bold" id="judul"></h2>
                     </div>
                     <div class="mb-3">
-                        <p id="konten"></p>
+                        <div id="konten"></div>
                     </div>
                     <!-- AKHIR FORM -->
                 </div>
