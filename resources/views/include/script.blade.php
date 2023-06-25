@@ -76,7 +76,8 @@ $('body').on('click', '.tombol-edit', function(e) {
             type: 'GET',
             success: function(response) {
                 $('#exampleModal').modal('show');
-                $('#konten').text(response.result.konten);
+                // $('#konten').text(response.result.konten);
+                $('#konten').html(response.result.konten);
                 $('#judul').text(response.result.judul);
             }
         });
@@ -99,6 +100,3 @@ $('body').on('click', '.tombol-edit', function(e) {
 
 
 </script>
-
-
-

@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\HalamanResource\Pages;
 use App\Filament\Resources\HalamanResource\RelationManagers;
+use App\Filament\Resources\HalamanResource\Widgets\HalamanOverview;  
 use App\Models\Halaman;
 use Filament\Forms;
 use Filament\Resources\Form;
@@ -72,6 +73,13 @@ class HalamanResource extends Resource
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),
             ]);
+    }
+
+    public static function   getWidgets(): array
+    {
+        return [
+            HalamanOverview::class,
+        ];
     }
     
     public static function getPages(): array

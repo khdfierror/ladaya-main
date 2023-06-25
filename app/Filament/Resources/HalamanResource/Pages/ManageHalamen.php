@@ -16,4 +16,10 @@ class ManageHalamen extends ManageRecords
             Actions\CreateAction::make(),
         ];
     }
+
+    protected function getHeaderWidgets(): array
+    {
+        return HalamanResource::getWidgets();
+
+    }
 }
